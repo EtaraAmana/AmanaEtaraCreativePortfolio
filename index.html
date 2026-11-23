@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Web, UI/UX & Graphic Designer</title>
+  <meta name="description" content="Portfolio of a web, UI/UX and graphic designer. Websites, interfaces and brand visuals people remember." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ICON SPRITE -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+    <symbol id="i-arrow-down" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></symbol>
+    <symbol id="i-insta" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+    <symbol id="i-layout" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></symbol>
+    <symbol id="i-film" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></symbol>
+  </defs>
+</svg>
+
+<!-- NAV -->
+<header class="nav" id="top">
+  <a href="#top" class="logo" data-cfg="handle">your.name</a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#work">Work</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+  <div class="nav-right">
+    <span class="status"><i class="dot"></i> Open for work</span>
+    <a href="#contact" class="btn btn-lime btn-sm"><span>Get a quote</span><b class="ico"><svg class="i"><use href="#i-arrow"/></svg></b></a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <span class="plus p1">+</span><span class="plus p2">+</span><span class="plus p3">+</span>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="label reveal">Web · UI/UX · Graphic Designer</p>
+      <h1 class="reveal">Hi, I'm <span data-cfg="firstName">Your Name</span>. I design <span class="hl">interfaces</span> and brands people remember.</h1>
+      <p class="lead reveal">Websites, UI/UX and graphic design for businesses that want to look as big as they really are.</p>
+      <div class="hero-cta reveal">
+        <a href="#work" class="btn btn-lime"><span>View work</span><b class="ico"><svg class="i"><use href="#i-arrow"/></svg></b></a>
+        <a href="assets/cv.pdf" class="btn btn-out" download><span>Download CV (PDF)</span><b class="ico"><svg class="i"><use href="#i-download"/></svg></b></a>
+      </div>
+
+      <div class="toolkit reveal">
+        <span class="mono-s">My toolkit</span>
+        <strong>Figma</strong><strong>Illustrator</strong><strong>Photoshop</strong><strong>Canva</strong><strong>CapCut</strong><strong>HTML/CSS/JS</strong>
+      </div>
+
+      <div class="hero-bottom reveal">
+        <button class="featured" id="featured" type="button" aria-label="Open featured project">
+          <span class="f-thumb" id="fThumb"></span>
+          <span class="f-text">
+            <span class="mono-s">Featured project</span>
+            <strong id="fTitle">Project title</strong>
+            <small id="fMeta">Category · Year</small>
+          </span>
+        </button>
+        <a href="#work" class="scroll-hint"><b class="ico"><svg class="i"><use href="#i-arrow-down"/></svg></b><span class="mono-s">Scroll to see work</span></a>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="ring"></div>
+      <div class="lime-circle"></div>
+      <div class="portrait">
+        <span class="init" data-initials></span>
+        <img src="assets/images/hero-portrait.png" alt="Portrait" onerror="this.remove()" />
+      </div>
+      <div class="float f1"><b class="ico sq"><svg class="i"><use href="#i-clock"/></svg></b><span><strong><span data-cfg="years">5</span> years</strong><small>of experience</small></span></div>
+      <div class="float f2"><b class="ico sq"><svg class="i"><use href="#i-layers"/></svg></b><span><strong>+<span data-cfg="projects">50</span> projects</strong><small>delivered so far</small></span></div>
+      <div class="float f3"><b class="ico sq"><svg class="i"><use href="#i-star"/></svg></b><span><strong>7 tools</strong><small>from design to code</small></span></div>
+      <a href="#contact" class="spin-badge" aria-label="Available for projects">
+        <svg viewBox="0 0 120 120">
+          <defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+          <g class="spin"><text><textPath href="#circ" textLength="283" lengthAdjust="spacing">AVAILABLE FOR PROJECTS • BOOKING NOW • </textPath></text></g>
+        </svg>
+        <span class="spin-core"><svg class="i"><use href="#i-arrow"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- BANDS -->
+<div class="bands" aria-hidden="true">
+  <div class="band band-alt"><div class="track"><span>Websites</span><span>UI/UX</span><span>Branding</span><span>Logos</span><span>Social media</span><span>Video editing</span><span>Websites</span><span>UI/UX</span><span>Branding</span><span>Logos</span><span>Social media</span><span>Video editing</span></div></div>
+  <div class="band band-main"><div class="track"><span>Web design</span><span>UI/UX design</span><span>Front-end</span><span>Branding</span><span>Graphic design</span><span>Motion</span><span>Web design</span><span>UI/UX design</span><span>Front-end</span><span>Branding</span><span>Graphic design</span><span>Motion</span></div></div>
+</div>
+
+<!-- ABOUT -->
+<section class="sec" id="about">
+  <div class="wrap about">
+    <div class="about-photo reveal">
+      <div class="about-img">
+        <span class="init" data-initials></span>
+        <img src="assets/images/about.jpg" alt="Designer at work" onerror="this.remove()" />
+        <span class="pill-tag"><i class="dot"></i> Studio · <span data-cfg="location">Your City</span></span>
+      </div>
+      <div class="years-card"><strong data-cfg="years">05</strong><span>years creating designs for clients and brands worldwide</span></div>
+    </div>
+    <div class="about-copy reveal">
+      <p class="label">About</p>
+      <h2>Design with <span class="hl">purpose</span>, not just good looks.</h2>
+      <p class="muted">Before I open Figma, I learn the business: who buys, who they buy from and why they should choose you. That is how I get to a website, interface or brand that works on screen, on social media and in print.</p>
+      <div class="author">
+        <span class="avatar"><span class="init" data-initials></span><img src="assets/images/hero-portrait.png" alt="" onerror="this.remove()" /></span>
+        <span><strong data-cfg="name">Your Name</strong><small>Web, UI/UX &amp; graphic designer</small></span>
+      </div>
+    </div>
+  </div>
+  <div class="wrap stats reveal">
+    <div><strong><em>+</em><span data-cfg="projects">50</span></strong><span>projects designed<br/>and delivered</span></div>
+    <div><strong>100<em>%</em></strong><span>custom work,<br/>no templates</span></div>
+    <div><strong>7</strong><span>tools, from Figma<br/>to JavaScript</span></div>
+    <div><strong>3</strong><span>disciplines: web,<br/>UI/UX and graphics</span></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="sec alt" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="label">Services</p><h2>Everything your <span class="hl">brand</span> needs to grow.</h2></div>
+      <p class="muted side">Six services you can hire together or separately. Every project ends with files that are ready to use.</p>
+    </div>
+    <div class="cards3">
+      <article class="svc reveal"><div class="svc-top"><span class="mono-s">01</span><b class="ico ring-ico"><svg class="i"><use href="#i-arrow"/></svg></b></div><b class="ico sq big"><svg class="i"><use href="#i-monitor"/></svg></b><h3>Website design</h3><p>Clean, responsive pages designed to convert visitors.</p><div class="tags">Layout · Responsive · Handoff</div></article>
+      <article class="svc reveal"><div class="svc-top"><span class="mono-s">02</span><b class="ico ring-ico"><svg class="i"><use href="#i-arrow"/></svg></b></div><b class="ico sq big"><svg class="i"><use href="#i-code"/></svg></b><h3>Front-end development</h3><p>Your design built with HTML, CSS and JavaScript.</p><div class="tags">HTML · CSS · JavaScript</div></article>
+      <article class="svc reveal"><div class="svc-top"><span class="mono-s">03</span><b class="ico ring-ico"><svg class="i"><use href="#i-arrow"/></svg></b></div><b class="ico sq big"><svg class="i"><use href="#i-layout"/></svg></b><h3>UI/UX design</h3><p>App and web interfaces that are simple to use.</p><div class="tags">Wireframes · Prototypes · UI kits</div></article>
+      <article class="svc reveal"><div class="svc-top"><span class="mono-s">04</span><b class="ico ring-ico"><svg class="i"><use href="#i-arrow"/></svg></b></div><b class="ico sq big"><svg class="i"><use href="#i-pen"/></svg></b><h3>Logo &amp; branding</h3><p>Logo, colors, typography and how to apply them.</p><div class="tags">Logo · Palette · Typography</div></article>
+      <article class="svc reveal"><div class="svc-top"><span class="mono-s">05</span><b class="ico ring-ico"><svg class="i"><use href="#i-arrow"/></svg></b></div><b class="ico sq big"><svg class="i"><use href="#i-image"/></svg></b><h3>Graphic design</h3><p>Posters, flyers and social media content in one look.</p><div class="tags">Posters · Flyers · Social posts</div></article>
+      <article class="svc reveal"><div class="svc-top"><span class="mono-s">06</span><b class="ico ring-ico"><svg class="i"><use href="#i-arrow"/></svg></b></div><b class="ico sq big"><svg class="i"><use href="#i-film"/></svg></b><h3>Video editing</h3><p>Short, punchy edits for reels, shorts and promos.</p><div class="tags">Reels · Shorts · Promos</div></article>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="sec" id="work">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="label">Work</p><h2>Designs that left the screen and went <span class="hl">live</span>.</h2></div>
+      <div class="filters" id="filters">
+        <button class="chip active" data-filter="all">All <sup id="c-all"></sup></button>
+        <button class="chip" data-filter="web">Web <sup id="c-web"></sup></button>
+        <button class="chip" data-filter="uiux">UI/UX <sup id="c-uiux"></sup></button>
+        <button class="chip" data-filter="graphics">Graphics <sup id="c-graphics"></sup></button>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div class="more"><button class="btn btn-out btn-sm" id="moreBtn" hidden><span id="moreText">View all projects</span><b class="ico"><svg class="i"><use href="#i-arrow"/></svg></b></button></div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="sec alt" id="process">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="label">Process</p><h2>From first chat to final files in <span class="hl">4 steps</span>.</h2></div>
+      <span class="pill-info"><i class="dot"></i> Average time: <strong>2 to 4 weeks</strong></span>
+    </div>
+    <div class="steps">
+      <div class="step reveal"><span class="mono-s">Week 1</span><div class="tl"><i></i></div><article><span class="n">01</span><h3>Discovery</h3><p>A call and a short questionnaire about your goals.</p></article></div>
+      <div class="step reveal"><span class="mono-s">Weeks 1–2</span><div class="tl"><i></i></div><article><span class="n">02</span><h3>Strategy</h3><p>Wireframes, moodboard and the main concept.</p></article></div>
+      <div class="step reveal"><span class="mono-s">Weeks 2–3</span><div class="tl"><i></i></div><article><span class="n">03</span><h3>Design</h3><p>Two design routes and two rounds of revisions.</p></article></div>
+      <div class="step reveal"><span class="mono-s">Weeks 3–4</span><div class="tl"><i></i></div><article><span class="n">04</span><h3>Delivery</h3><p>Final files, handoff and a walkthrough.</p></article></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="label">Testimonials</p><h2>What clients <span class="hl">say</span>.</h2></div>
+    </div>
+    <p class="note reveal">Placeholder text. Replace these three cards with real quotes from your clients, or delete this whole section until you have them.</p>
+    <div class="cards3">
+      <article class="quote reveal"><div class="q-top"><span class="qm">“</span><span class="stars"><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg></span></div><p>Add a real client quote here about the result they got from working with you.</p><span class="tag-s">Website design</span><div class="who"><span class="av">CN</span><span><strong>Client Name</strong><small>Role, Company</small></span></div></article>
+      <article class="quote reveal"><div class="q-top"><span class="qm">“</span><span class="stars"><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg></span></div><p>Add a second client quote here, ideally about how you communicate and deliver on time.</p><span class="tag-s">UI/UX</span><div class="who"><span class="av">CN</span><span><strong>Client Name</strong><small>Role, Company</small></span></div></article>
+      <article class="quote reveal"><div class="q-top"><span class="qm">“</span><span class="stars"><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg><svg class="i"><use href="#i-star"/></svg></span></div><p>Add a third client quote here, ideally with a number or concrete result.</p><span class="tag-s">Branding</span><div class="who"><span class="av">CN</span><span><strong>Client Name</strong><small>Role, Company</small></span></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="sec dark" id="pricing">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="label">Pricing</p><h2>Clear packages, <span class="hl">no surprises</span> at the end.</h2></div>
+      <p class="muted side">Fixed price before we start. Need something outside these packages? I will put together a custom proposal.</p>
+    </div>
+    <p class="note reveal">Example prices. Change the amounts and items to match your own rates.</p>
+    <div class="cards3 price-grid">
+      <article class="plan reveal"><span class="pill-s">1–2 weeks</span><h3>Essential</h3><p class="muted">Logo or a one-page design with the basics.</p><div class="price"><sup>$</sup>150</div><small class="muted">50% upfront, 50% on delivery</small><ul><li><svg class="i"><use href="#i-check"/></svg>Main logo or one-page design</li><li><svg class="i"><use href="#i-check"/></svg>Color palette and fonts</li><li><svg class="i"><use href="#i-check"/></svg>3 social media templates</li><li><svg class="i"><use href="#i-check"/></svg>2 rounds of revisions</li></ul><a href="#contact" class="btn btn-out btn-block"><span>I want this package</span><svg class="i"><use href="#i-arrow"/></svg></a></article>
+      <article class="plan featured-plan reveal"><span class="ribbon">★ Most popular</span><span class="pill-s">2–3 weeks</span><h3>Complete</h3><p class="muted">Everything in Essential, plus a full website or UI.</p><div class="price hl"><sup>$</sup>450</div><small class="muted">50% upfront, 50% on delivery</small><ul><li><svg class="i"><use href="#i-check"/></svg>Everything in Essential</li><li><svg class="i"><use href="#i-check"/></svg>Multi-page website design in Figma</li><li><svg class="i"><use href="#i-check"/></svg>Responsive build in HTML, CSS and JS</li><li><svg class="i"><use href="#i-check"/></svg>Social media kit (avatar, covers, 6 templates)</li></ul><a href="#contact" class="btn btn-lime btn-block"><span>I want this package</span><b class="ico"><svg class="i"><use href="#i-arrow"/></svg></b></a></article>
+      <article class="plan reveal"><span class="pill-s">4+ weeks</span><h3>Full Brand</h3><p class="muted">Brand, website and launch content together.</p><div class="price"><sup>$</sup>1,200</div><small class="muted">50% upfront, 50% on delivery</small><ul><li><svg class="i"><use href="#i-check"/></svg>Everything in Complete</li><li><svg class="i"><use href="#i-check"/></svg>Brand guidelines document</li><li><svg class="i"><use href="#i-check"/></svg>Launch graphics and a short promo video</li><li><svg class="i"><use href="#i-check"/></svg>Source files included</li></ul><a href="#contact" class="btn btn-out btn-block"><span>I want this package</span><svg class="i"><use href="#i-arrow"/></svg></a></article>
+    </div>
+    <div class="perks"><span><svg class="i"><use href="#i-clock"/></svg>Payment in 2 installments</span><span><svg class="i"><use href="#i-layers"/></svg>Source files included</span><span><svg class="i"><use href="#i-check"/></svg>Written agreement for every project</span></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec alt" id="faq">
+  <div class="wrap faq">
+    <div class="faq-left">
+      <p class="label">FAQ</p>
+      <h2>Got any <span class="hl">questions</span>?</h2>
+      <p class="muted">The questions I get most before a project starts.</p>
+      <div class="help-card">
+        <div class="author"><span class="avatar"><span class="init" data-initials></span><img src="assets/images/hero-portrait.png" alt="" onerror="this.remove()" /></span><span><strong>Still unsure?</strong><small>I reply within 24 working hours</small></span></div>
+        <a class="btn btn-lime btn-block" data-href="https://wa.me/{whatsapp}" target="_blank" rel="noopener"><span>Chat on WhatsApp</span><b class="ico"><svg class="i"><use href="#i-chat"/></svg></b></a>
+      </div>
+    </div>
+    <div class="faq-list" id="faqList">
+      <div class="qa open"><button><span class="mono-s">01</span><strong>How long does a project take?</strong><b class="ico ring-ico"><svg class="i"><use href="#i-plus"/></svg></b></button><div class="ans"><p>Most projects take 2 to 4 weeks, depending on the package and how quickly feedback comes back.</p></div></div>
+      <div class="qa"><button><span class="mono-s">02</span><strong>Do you work with clients abroad?</strong><b class="ico ring-ico"><svg class="i"><use href="#i-plus"/></svg></b></button><div class="ans"><p>Yes. Everything is done remotely through chat, email and video calls, so location is not a problem.</p></div></div>
+      <div class="qa"><button><span class="mono-s">03</span><strong>How many design options do I get?</strong><b class="ico ring-ico"><svg class="i"><use href="#i-plus"/></svg></b></button><div class="ans"><p>You get two design routes to choose from, then two rounds of revisions on the one you pick.</p></div></div>
+      <div class="qa"><button><span class="mono-s">04</span><strong>Do I get the editable files?</strong><b class="ico ring-ico"><svg class="i"><use href="#i-plus"/></svg></b></button><div class="ans"><p>Yes. Source files (Figma, Illustrator or Photoshop) are delivered with the final exports.</p></div></div>
+      <div class="qa"><button><span class="mono-s">05</span><strong>How does payment work?</strong><b class="ico ring-ico"><svg class="i"><use href="#i-plus"/></svg></b></button><div class="ans"><p>50% upfront to book your spot and 50% when the work is approved, before the final files are released.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="sec cta-sec" id="cta">
+  <div class="wrap">
+    <div class="cta">
+      <div class="cta-copy">
+        <p class="mono-s dark">• Booking new projects</p>
+        <h2>Ready to take your brand from idea to launch?</h2>
+        <div class="cta-row">
+          <a class="btn btn-dark" data-href="https://wa.me/{whatsapp}" target="_blank" rel="noopener"><span>Get a quote on WhatsApp</span><b class="ico"><svg class="i"><use href="#i-chat"/></svg></b></a>
+          <span class="reply"><svg class="i"><use href="#i-clock"/></svg>I reply within 24 working hours</span>
+        </div>
+      </div>
+      <div class="cta-photo"><div class="cta-circle"></div><span class="init" data-initials></span><img src="assets/images/hero-portrait.png" alt="" onerror="this.remove()" /></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="sec" id="contact">
+  <div class="wrap contact">
+    <div class="contact-left">
+      <p class="label">Contact</p>
+      <h2>Tell me about your <span class="hl">project</span>.</h2>
+      <p class="muted">Fill in the form or message me directly. Within 24 working hours you will get a reply with next steps.</p>
+      <ul class="c-list">
+        <li><a data-href="mailto:{email}"><b class="ico sq"><svg class="i"><use href="#i-mail"/></svg></b><span><small>Email</small><strong data-cfg="email">you@example.com</strong></span><b class="ico ring-ico"><svg class="i"><use href="#i-arrow"/></svg></b></a></li>
+        <li><a data-href="https://wa.me/{whatsapp}" target="_blank" rel="noopener"><b class="ico sq"><svg class="i"><use href="#i-chat"/></svg></b><span><small>WhatsApp</small><strong data-cfg="whatsappDisplay">+000 000 000 0000</strong></span><b class="ico ring-ico"><svg class="i"><use href="#i-arrow"/></svg></b></a></li>
+        <li><a data-href="https://instagram.com/{instagram}" target="_blank" rel="noopener"><b class="ico sq"><svg class="i"><use href="#i-insta"/></svg></b><span><small>Instagram</small><strong>@<span data-cfg="instagram">yourhandle</span></strong></span><b class="ico ring-ico"><svg class="i"><use href="#i-arrow"/></svg></b></a></li>
+        <li><a href="#contact"><b class="ico sq"><svg class="i"><use href="#i-pin"/></svg></b><span><small>Based in</small><strong><span data-cfg="location">Your City</span> · working worldwide</strong></span><b class="ico ring-ico"><svg class="i"><use href="#i-arrow"/></svg></b></a></li>
+      </ul>
+    </div>
+
+    <form class="form" id="form" novalidate>
+      <h3>Request a quote</h3>
+      <p class="muted s">Takes 2 minutes. Fields marked * are required.</p>
+      <div class="row2">
+        <label>Name *<input type="text" name="name" placeholder="Your name" required /></label>
+        <label>Email *<input type="email" name="email" placeholder="you@email.com" required /></label>
+      </div>
+      <label>Project type
+        <select name="type">
+          <option>Website design</option><option>UI/UX design</option><option>Logo &amp; branding</option><option>Graphic design</option><option>Video editing</option><option>Something else</option>
+        </select>
+      </label>
+      <fieldset>
+        <legend>Budget</legend>
+        <div class="pills">
+          <label><input type="radio" name="budget" value="Under $300" /><span>Under $300</span></label>
+          <label><input type="radio" name="budget" value="$300–1,000" checked /><span>$300–1,000</span></label>
+          <label><input type="radio" name="budget" value="Over $1,000" /><span>Over $1,000</span></label>
+        </div>
+      </fieldset>
+      <label>Message<textarea name="message" rows="4" placeholder="Tell me about your business, your deadline and what you need..."></textarea></label>
+      <button class="btn btn-lime btn-block" type="submit"><span>Send</span><b class="ico"><svg class="i"><use href="#i-arrow"/></svg></b></button>
+      <p class="muted s form-note" id="formNote"><svg class="i"><use href="#i-pin"/></svg>Your details stay with me. No spam.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap foot">
+    <div class="foot-brand">
+      <a href="#top" class="logo" data-cfg="handle">your.name</a>
+      <p class="muted">Web design, UI/UX and graphic design. Working with clients worldwide.</p>
+      <div class="socials">
+        <a data-href="https://instagram.com/{instagram}" target="_blank" rel="noopener" aria-label="Instagram"><svg class="i"><use href="#i-insta"/></svg></a>
+        <a data-href="https://wa.me/{whatsapp}" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="i"><use href="#i-chat"/></svg></a>
+        <a data-href="mailto:{email}" aria-label="Email"><svg class="i"><use href="#i-mail"/></svg></a>
+      </div>
+    </div>
+    <div><p class="mono-s">Navigation</p><a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></div>
+    <div><p class="mono-s">Services</p><a href="#services">Website design</a><a href="#services">Front-end development</a><a href="#services">UI/UX design</a><a href="#services">Logo &amp; branding</a><a href="#services">Graphic design</a></div>
+    <div><p class="mono-s">Contact</p><a data-href="mailto:{email}" data-cfg="email">you@example.com</a><a data-href="https://wa.me/{whatsapp}" target="_blank" rel="noopener" data-cfg="whatsappDisplay">+000 000 000 0000</a><a data-href="https://instagram.com/{instagram}" target="_blank" rel="noopener">@<span data-cfg="instagram">yourhandle</span></a><a data-href="https://www.behance.net/{behance}" target="_blank" rel="noopener">Behance</a></div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>© <span id="year"></span> <span data-cfg="name">Your Name</span>. All rights reserved.</span>
+    <span>Designed &amp; built by me ✳ Hosted on GitHub Pages</span>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-close" id="lbClose" aria-label="Close"><svg class="i"><use href="#i-x"/></svg></button>
+  <div class="lb-inner">
+    <div class="lb-media" id="lbMedia"></div>
+    <div class="lb-info">
+      <span class="tag" id="lbTag"></span>
+      <h3 id="lbTitle"></h3>
+      <p class="muted" id="lbDesc"></p>
+      <p class="tools" id="lbTools"></p>
+      <a class="btn btn-lime" id="lbLink" target="_blank" rel="noopener" hidden><span>View live / case study</span><b class="ico"><svg class="i"><use href="#i-arrow"/></svg></b></a>
+    </div>
+  </div>
+</div>
+
+<script src="projects.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
