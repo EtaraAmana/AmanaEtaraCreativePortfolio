@@ -7,7 +7,7 @@ window.siteConfig = {
   handle: "John.Etara",            // logo text in the menu and footer
   location: "Abuja",          // shown in About and Contact
   years: "5",                     // years of experience
-  projects: "Over 50",                 // projects delivered
+  projects: "50",                 // projects delivered
   email: "johnbelovedetara@gmail.com",
   whatsapp: "2348106743460",      // digits only, with country code, no + sign
   whatsappDisplay: "+234 810 674 3460",
