@@ -42,22 +42,22 @@ const projects = [
     link: ""
   },
   {
-    title: "Fitness App UI",
+    title: "Medical Health Care App UI",
     category: "uiux",
     year: "2026",
     image: "assets/images/project-2.jpg",
     gallery: [],
-    description: "Mobile app screens and a clickable prototype covering onboarding, workouts and progress tracking.",
+    description: "Mobile app screens and a clickable prototype covering Booking Consultation, Gynaecologist, Physioterapist and HMO.",
     tools: "Figma",
     link: ""
   },
   {
-    title: "Coffee Brand Identity",
+    title: "CompBridge Brand Identity",
     category: "graphics",
     year: "2025",
     image: "assets/images/project-3.jpg",
     gallery: [],
-    description: "Logo, colour palette and packaging mockups for a coffee shop.",
+    description: "Logo, colour palette and Typography, product launch.",
     tools: "Adobe Illustrator · Photoshop",
     link: ""
   },
@@ -67,13 +67,13 @@ const projects = [
     year: "2025",
     image: "assets/images/project-4.jpg",
     gallery: [],
-    description: "A set of social posts, stories and a short promo video for a product launch.",
+    description: "A set of social posts, stories and a short promo video.",
     tools: "Canva · Photoshop · CapCut",
     link: ""
   },
   {
-    title: "Online Store Redesign",
-    category: "web",
+    title: "Brand Identity",
+    category: "Graphics",
     year: "2025",
     image: "assets/images/project-5.jpg",
     gallery: [],
