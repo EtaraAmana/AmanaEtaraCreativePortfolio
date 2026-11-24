@@ -167,7 +167,7 @@ h3 { font-size: 1rem; letter-spacing: -.02em; }
 .stats > div:first-child { padding-left: 0; } .stats > div:last-child { border-right: 0; }
 .stats strong { display: block; font-family: var(--display); font-weight: 800; font-size: clamp(2.4rem, 4.5vw, 3.6rem); letter-spacing: -.04em; line-height: 1; }
 .stats em { font-style: normal; color: var(--lime); font-size: .7em; }
-.stats span { display: block; margin-top: 12px; color: var(--muted); font-size: .84rem; }
+.stats > div > span { display: block; margin-top: 12px; color: var(--muted); font-size: .84rem; }
 
 /* CARDS */
 .cards3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
