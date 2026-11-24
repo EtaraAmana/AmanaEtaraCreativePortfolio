@@ -270,7 +270,7 @@ h3 { font-size: 1rem; letter-spacing: -.02em; }
 
 /* CTA */
 .cta-sec { padding: 60px 0 40px; }
-.cta { position: relative; background: var(--lime); color: var(--ink); border-radius: 30px; overflow: hidden; display: grid; grid-template-columns: 1.15fr .85fr; min-height: 340px; }
+.cta { position: relative; background: var(--lime); color: var(--ink); border-radius: 30px; overflow: hidden; display: grid; grid-template-columns: 1fr .1fr; min-height: 340px; }
 .cta::before, .cta::after { content: ""; position: absolute; border: 1px solid rgba(0,0,0,.12); border-radius: 50%; }
 .cta::before { width: 520px; height: 520px; right: -60px; top: -120px; }
 .cta::after { width: 760px; height: 760px; right: -200px; top: -240px; }
@@ -280,7 +280,7 @@ h3 { font-size: 1rem; letter-spacing: -.02em; }
 .reply { display: flex; align-items: center; gap: 8px; font-size: .85rem; }
 .cta-photo { position: relative; }
 .cta-circle { position: absolute; width: 360px; height: 360px; border-radius: 50%; background: var(--ink); right: -40px; bottom: -120px; }
-.cta-photo img { position: absolute; z-index: 2; bottom: 0; right: 20px; height: 92%; width: auto; object-fit: contain; }
+.cta-photo img { position: absolute; z-index: 2; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 .cta-photo .init { color: rgba(255,255,255,.2); z-index: 1; }
 
 /* CONTACT */
