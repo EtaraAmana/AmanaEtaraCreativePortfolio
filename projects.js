@@ -2,17 +2,17 @@
    1) YOUR DETAILS  (edit once, the whole site updates)
    ===================================================== */
 window.siteConfig = {
-  name: "Your Name",              // full name
-  firstName: "Your Name",         // used in "Hi, I'm ..." (first name only is nicer)
-  handle: "your.name",            // logo text in the menu and footer
-  location: "Your City",          // shown in About and Contact
+  name: "John Etara",              // full name
+  firstName: "John",         // used in "Hi, I'm ..." (first name only is nicer)
+  handle: "John.Etara",            // logo text in the menu and footer
+  location: "Abuja",          // shown in About and Contact
   years: "5",                     // years of experience
   projects: "50",                 // projects delivered
-  email: "you@example.com",
-  whatsapp: "2340000000000",      // digits only, with country code, no + sign
-  whatsappDisplay: "+234 000 000 0000",
-  instagram: "yourhandle",        // without the @
-  behance: "yourname",            // your Behance username
+  email: "johnbelovedetara@gmail.com",
+  whatsapp: "2348106743460",      // digits only, with country code, no + sign
+  whatsappDisplay: "+234 810 674 3460",
+  instagram: "flourishlife_consortium",        // without the @
+  behance: "John Etara",            // your Behance username
 
   // Paste your Google Drive folder share link here. The "View all projects"
   // button will open it in a new tab. Leave empty to show more projects on the page instead.
@@ -46,22 +46,22 @@ const projects = [
     link: ""
   },
   {
-    title: "Fitness App UI",
+    title: "Medical Health Care App UI",
     category: "uiux",
     year: "2026",
     image: "assets/images/project-2.jpg",
     gallery: [],
-    description: "Mobile app screens and a clickable prototype covering onboarding, workouts and progress tracking.",
+    description: "Mobile app screens and a clickable prototype covering Booking Consultation, Gynaecologist, Physioterapist and HMO.",
     tools: "Figma",
     link: ""
   },
   {
-    title: "Coffee Brand Identity",
+    title: "CompBridge Brand Identity",
     category: "graphics",
     year: "2025",
     image: "assets/images/project-3.jpg",
     gallery: [],
-    description: "Logo, colour palette and packaging mockups for a coffee shop.",
+    description: "Logo, colour palette and Typography, product launch.",
     tools: "Adobe Illustrator · Photoshop",
     link: ""
   },
@@ -76,12 +76,12 @@ const projects = [
     link: ""
   },
   {
-    title: "Online Store Redesign",
-    category: "web",
+    title: "Brand Identity",
+    category: "Graphics",
     year: "2025",
     image: "assets/images/project-5.jpg",
     gallery: [],
-    description: "A cleaner product page and checkout flow for an online shop.",
+    description: "Designing brand assets, including logos, business cards, letterheads, brand collateral, and other corporate identity materials.",
     tools: "Figma · HTML · CSS",
     link: ""
   }
