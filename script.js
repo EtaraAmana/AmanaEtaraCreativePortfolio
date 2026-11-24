@@ -119,7 +119,11 @@
     });
 
     const btn = $("moreBtn");
-    if (list.length > LIMIT) {
+    if (cfg.driveLink) {
+      // Button always opens the Google Drive folder
+      btn.hidden = false;
+      $("moreText").textContent = "View all projects";
+    } else if (list.length > LIMIT) {
       btn.hidden = false;
       $("moreText").textContent = showAll ? "Show fewer projects" : "View all " + list.length + " projects";
     } else btn.hidden = true;
@@ -134,7 +138,11 @@
     showAll = false;
     render();
   });
-  $("moreBtn").addEventListener("click", () => { showAll = !showAll; render(); });
+  $("moreBtn").addEventListener("click", () => {
+    if (cfg.driveLink) { window.open(cfg.driveLink, "_blank", "noopener"); return; }
+    showAll = !showAll;
+    render();
+  });
 
   /* ---------- Lightbox ---------- */
   const lightbox = $("lightbox");
