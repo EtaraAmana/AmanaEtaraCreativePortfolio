@@ -2,17 +2,17 @@
    1) YOUR DETAILS  (edit once, the whole site updates)
    ===================================================== */
 window.siteConfig = {
-  name: "Your Name",              // full name
-  firstName: "Your Name",         // used in "Hi, I'm ..." (first name only is nicer)
-  handle: "your.name",            // logo text in the menu and footer
-  location: "Your City",          // shown in About and Contact
+  name: "John Etara",              // full name
+  firstName: "John",         // used in "Hi, I'm ..." (first name only is nicer)
+  handle: "John.Etara",            // logo text in the menu and footer
+  location: "Abuja",          // shown in About and Contact
   years: "5",                     // years of experience
-  projects: "50",                 // projects delivered
-  email: "you@example.com",
-  whatsapp: "2340000000000",      // digits only, with country code, no + sign
-  whatsappDisplay: "+234 000 000 0000",
-  instagram: "yourhandle",        // without the @
-  behance: "yourname",            // your Behance username
+  projects: "Over 50",                 // projects delivered
+  email: "johnbelovedetara@gmail.com",
+  whatsapp: "2348106743460",      // digits only, with country code, no + sign
+  whatsappDisplay: "+234 810 674 3460",
+  instagram: "flourishlife_consortium",        // without the @
+  behance: "John Etara",            // your Behance username
 
   // Optional: paste a Formspree URL (https://formspree.io) so the form sends
   // messages straight to your inbox. Leave empty to open the visitor's email app.
