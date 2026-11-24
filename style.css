@@ -270,7 +270,7 @@ h3 { font-size: 1rem; letter-spacing: -.02em; }
 
 /* CTA */
 .cta-sec { padding: 60px 0 40px; }
-.cta { position: relative; background: var(--lime); color: var(--ink); border-radius: 30px; overflow: hidden; display: grid; grid-template-columns: 1fr .1fr; min-height: 340px; }
+.cta { position: relative; background: var(--lime); color: var(--ink); border-radius: 30px; overflow: hidden; display: grid; grid-template-columns: 1.15fr .85fr; min-height: 340px; }
 .cta::before, .cta::after { content: ""; position: absolute; border: 1px solid rgba(0,0,0,.12); border-radius: 50%; }
 .cta::before { width: 520px; height: 520px; right: -60px; top: -120px; }
 .cta::after { width: 760px; height: 760px; right: -200px; top: -240px; }
